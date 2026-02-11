@@ -9,6 +9,17 @@ import time
 # Настройка страницы
 st.set_page_config(page_title="Poker Session Tracker", layout="wide", page_icon="♠️")
 
+st.markdown(
+    """
+    <style>
+    .stAppDeployButton, #MainMenu {
+            visibility: hidden;
+        }
+    </style>
+    """,
+    unsafe_allow_html=True
+)
+
 # Инициализация БД
 db.init_db()
 
