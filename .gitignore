@@ -1,0 +1,16 @@
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Virtual environment
+venv/
+env/
+.env
+
+# Database
+*.db
+poker_stats.db
+
+# IDE settings
+.idea/
+.vscode/
